@@ -1,5 +1,3 @@
-import log from './log';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-
-
-log("Hello world!");
