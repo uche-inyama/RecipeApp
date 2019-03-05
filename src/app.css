@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	color: #222;
+}
+.list h2{
+	padding: 30px;
+}
+
+body{
+	background-color: #cdebdb;
+
+}
+.header{
+	padding: 0 40px;
+	margin-top: 30px;
+}
+
+.header img{
+	width: 70px;
+	height: 70px;
+	background-color: #cdebdb;
+	font-size: 70px;
+	padding: 40px 5px 40px 40px; 
+	margin: 30px 0;
+}
+
+.recipe{
+	display: flex;
+	flex-direction: row;
+	padding: 0 40px;
+}
+.list{
+	margin-right: 100px;
+}
+img{
+	width: 600px;
+	height: 400px;
+}
+
+h1.head{
+	font-size: 70px;
+	padding:  40px 40px 40px 5px;
+}
+header{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0.4em 0px;
+	font-family: 'Oswald', sans-serif;
+}
+.default{
+	font-size: 18px;
+	background-color: white;
+	font-style: italic;
+	text-align: center;
+	padding: 10px 50px 100px 50px;
+}
+.display{
+	background-color: white;
+	padding: 10px 50px 100px 50px;
+}
+.display h2{
+	font-size: 50px;
+}
+.display img{
+	min-width:100%;
+}
+.list ul{
+	list-style: none;
+}
+.list ul li{
+	padding: 10px 0;
+	border-bottom-style: dashed;
+	cursor:pointer;
+}

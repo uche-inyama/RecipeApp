@@ -1,9 +1,11 @@
 import React from 'react';
+import Emoji from '../static/images/emoji.png';
 
 const Header = () => (
 
-	<header>
-	  <h1> My Recipes </h1>
+	<header  className ='header'>
+	   <img	src={Emoji}/>
+	   <h1 className='head'>My Recipes</h1>
 	</header>
 );
 

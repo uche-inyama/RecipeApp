@@ -6,7 +6,7 @@ const path = require('path');
 require('dotenv').config();
 module.exports = {
 	context: path.join(__dirname, 'src'),
-	entry: ['whatwg-fetch','./index.js'],
+	entry: ['whatwg-fetch', './index.js'],
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: './bundle.js'
@@ -20,6 +20,10 @@ module.exports = {
 			{
 				test: /\.(png|jpg)$/,
 				loader: 'file-loader'
+			},
+			{
+				test: /\.css$/,
+				use: ['style-loader','css-loader']
 			}
 		]
 	},
@@ -32,7 +36,6 @@ module.exports = {
 		new webpack.DefinePlugin({
 			API_URL: JSON.stringify(process.env.API_URL)
 		})
-
 	]
 
 };
